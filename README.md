@@ -1,24 +1,28 @@
-# ToiMoi - Private Messaging Website
+# ToiMoi – Private Messaging Website
 
-A **one-on-one encrypted chat web app** built with **PHP, MySQL, JavaScript, HTML5, CSS3, and Tailwind CSS**. Designed with privacy and a responsive UI. Future updates plan to integrate **React.js, TypeScript, real-time messaging, and GraphQL**.
+A secure, privacy-first **one-on-one encrypted messaging web application** built from scratch. Users can register, authenticate, send private messages, and receive email invitations — all with a clean, responsive UI.
 
----
+Focus: Privacy, security basics, and modern full-stack development (PHP backend + Tailwind front-end).
 
-## Features
 
-- Secure one-on-one messaging
-- Encrypted chat using PHP and MySQL
-- User authentication with sessions
+## ✨ Features
+- Secure user authentication (sessions-based)
+- One-on-one private messaging with basic encryption
 - Email invitations using PHPMailer
-- Responsive UI with Tailwind CSS
-- Easy to extend and maintain
+- Responsive, modern UI with Tailwind CSS
+- Relational MySQL database for users and messages
+- Modular backend architecture (separation of concerns)
+- Privacy-focused design
 
----
+## 🛠️ Tech Stack
+- **Frontend**: HTML5, CSS3 (Tailwind CSS), JavaScript
+- **Backend**: PHP
+- **Database**: MySQL (relational schema with users, conversations, messages)
+- **Email**: PHPMailer
+- **Other**: Composer for dependencies
 
-## Installation
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/learningsin2024-source/ToiMoi-Private-Messaging-website.git
-cd ToiMoi-Private-Messaging-website
+## 🚀 Installation & Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/learningsin2024-source/ToiMoi-Private-Messaging-website.git
+   cd ToiMoi-Private-Messaging-website
