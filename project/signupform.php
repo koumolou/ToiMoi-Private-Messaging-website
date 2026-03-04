@@ -1,10 +1,6 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "logindb";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+require_once __DIR__ . '/dbconnect.php';
 
 
 if (!$conn) {

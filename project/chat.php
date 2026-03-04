@@ -1,17 +1,15 @@
 <?php
 session_start();
 
+
+require_once __DIR__ . '/dbconnect.php';
+
 // Make sure user is logged in
 if (!isset($_SESSION['user_id'])) {
     header("Location: connect.php");
     exit();
 }
 
-// Connect to database
-$conn = mysqli_connect("localhost", "root", "", "logindb");
-if (!$conn) {
-    die("Database connection failed: " . mysqli_connect_error());
-}
 
 // Logged in user's ID
 $sender_id = $_SESSION['user_id'];

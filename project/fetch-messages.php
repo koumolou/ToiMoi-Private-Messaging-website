@@ -1,8 +1,6 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "logindb");
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+
+require_once __DIR__ . '/dbconnect.php';
 
 $sender_id = $_GET['sender_id'];
 $receiver_id = $_GET['receiver_id'];

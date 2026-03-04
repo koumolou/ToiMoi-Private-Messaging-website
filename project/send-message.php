@@ -1,8 +1,6 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "logindb");
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+
+require_once __DIR__ . '/dbconnect.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $sender_id = mysqli_real_escape_string($conn, $_POST["sender_id"]);
