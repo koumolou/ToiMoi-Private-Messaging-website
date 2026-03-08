@@ -21,6 +21,13 @@ Focus: Privacy, security basics, and modern full-stack development (PHP backend 
 - **Email**: PHPMailer
 - **Other**: Composer for dependencies
 
+👤 Author
+Koumolou Fatihu
+
+GitHub: @learningsin2024-source
+Email: learningsin2024@gmail.com
+Location: Abidjan, Côte d'Ivoire
+
 ## 🚀 Installation & Setup
 1. Clone the repo:
    ```bash
